@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
         {
@@ -78,35 +78,35 @@ const questions = () => {
                 }
             }
         },
-   
+
         {
             type: 'list',
             name: 'license',
             message: 'Select the license for the project.',
             choices: ['MIT', 'GNU', 'Mozilla', 'no license'],
-            
+
         },
-        
+
 
         {
             type: 'input',
             name: 'features',
             message: 'List any features of the project.',
-         
+
         },
-    
+
         {
             type: 'input',
             name: 'contributing',
             message: 'Provide any information for contributing to the project.',
-          
+
         },
-      
+
         {
             type: 'input',
             name: 'tests',
             message: 'Provide any information on tests for the project',
-        
+
         },
         {
             type: 'input',
@@ -144,7 +144,7 @@ questions()
         const pageMarkdown = generateMarkdown(answers);
         console.log(answers);
 
-        // TODO: Create a function to write README file
+        // Create a function to write README file
         fs.writeFile('./dist/README.md', pageMarkdown, err => {
             if (err) throw err;
 

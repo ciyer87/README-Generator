@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license === 'no license'){
@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
   return `![license](https://img.shields.io/badge/License-${license}-blue)`
   }
 
-// TODO: Create a function that returns the license link
+// Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license === 'no license'){
@@ -36,7 +36,7 @@ function renderLicenseLink(license) {
   }    
 }
 
-// TODO: Create a function that returns the license section of README
+// Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
@@ -46,7 +46,7 @@ function renderLicenseSection(license) {
   return `## License`
 }
 
-
+//function that return table of contents
 function renderTableOfContents(contents){
   if(contents){
     return `
@@ -61,6 +61,7 @@ function renderTableOfContents(contents){
   return '';
 }
 
+//function that returns credits, if applicable
 function renderCredits(credits){
   if(!credits){
     return '';
@@ -71,6 +72,7 @@ function renderCredits(credits){
 
 }
 
+//function that returns features, if applicable
 function renderFeatures(features){
   if(!features){
     return '';
@@ -81,6 +83,7 @@ function renderFeatures(features){
    
 }
 
+//function that returns contributing content, if applicable
 function renderContributing(contributing){
   if(!contributing){
     return '';
@@ -91,6 +94,7 @@ function renderContributing(contributing){
   
 }
 
+//function that returns tests, if applicable
 function renderTests(tests){
   if(!tests){
     return '';
@@ -102,7 +106,7 @@ function renderTests(tests){
 }
 
 
-// TODO: Create a function to generate markdown for README
+// Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.projectName}
