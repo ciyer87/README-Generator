@@ -139,8 +139,9 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  Please click [here] (https://github.com/${data.github}/) for the GitHub profile page.
-  For additional information please email ${ data.email }
+  [Contact me](${data.email})
+
+  [GitHub](https://github.com/${data.github})
 
       `;
 }
