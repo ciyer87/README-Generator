@@ -78,101 +78,35 @@ const questions = () => {
                 }
             }
         },
-        {
-            type: 'confirm',
-            name: 'confirmLicense',
-            message: 'Would you like to add a License?',
-            default: false
-        },
+   
         {
             type: 'list',
             name: 'license',
             message: 'Select the license for the project.',
-            choices: ['MIT License', 'GNU General Public License v3.0', 'Mozilla Public License 2.0', 'no license'],
-            when: ({ confirmLicense }) => {
-                if (confirmLicense) {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
+            choices: ['MIT', 'GNU', 'Mozilla', 'no license'],
+            
         },
-        {
-            type: 'confirm',
-            name: 'confirmBadges',
-            message: 'Would you like to add any Badges?',
-            default: false
-        },
-        {
-            type: 'input',
-            name: 'badges',
-            message: 'Enter any Badges you would like to add.',
-            when: ({ confirmBadges }) => {
-                if (confirmBadges) {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
-        },
-        {
-            type: 'confirm',
-            name: 'confirmFeatures',
-            message: 'Would you like to list any features?',
-            default: false
-        },
+        
+
         {
             type: 'input',
             name: 'features',
             message: 'List any features of the project.',
-            when: ({ confirmFeatures }) => {
-                if (confirmFeatures) {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
+         
         },
-        {
-            type: 'confirm',
-            name: 'confirmContributing',
-            message: 'Would you like to provide contributing information?',
-            default: false
-        },
+    
         {
             type: 'input',
             name: 'contributing',
             message: 'Provide any information for contributing to the project.',
-            when: ({ confirmContributing }) => {
-                if (confirmContributing) {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
+          
         },
-        {
-            type: 'confirm',
-            name: 'confirmTests',
-            message: 'Would you like to add any Tests?',
-            default: false
-        },
+      
         {
             type: 'input',
             name: 'tests',
             message: 'Provide any information on tests for the project',
-            when: ({ confirmTests }) => {
-                if (confirmTests) {
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
+        
         },
         {
             type: 'input',
