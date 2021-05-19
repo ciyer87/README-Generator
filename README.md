@@ -36,6 +36,10 @@ Clone the repo and run the command npm install to install dependencies
 * readme generator preview
 
   ![preview](assets/images/readme-generator-preview.png)
+  
+* walkthrough video
+ 
+ ![walkthrough video](assets/images/READMEGeneratorVidoe.gif)
     
 ## License
 
