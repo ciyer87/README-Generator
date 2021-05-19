@@ -1,24 +1,31 @@
 
-  # asdf
+  # README Generator
   ![license](https://img.shields.io/badge/License-MIT-blue)
 
   ## Description
   
-  asf
+  readme generator using node.js
 
+  
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Questions](#questions)
   
   
   ## Installation
 
-  adsf
+  clone github, install dependencies and run node from terminal
 
   ## Usage
 
-  asdf
+  no specific notes
 
   ## Credits
 
-  asfd
+  none
   
   ## License
   [MIT]('https://choosealicense.com/licenses/mit/')
@@ -26,7 +33,9 @@
       copyright and license notices. Licensed works, modifications, and larger works may be 
       distributed under different terms and without source code.
 
-  
+  ## Features
+
+  none
 
   
 
@@ -34,8 +43,8 @@
 
   ## Questions
 
-  [Contact me](asfd@adf.com)
+  [Contact me](chitra.iyer00@gmail.com)
 
-  [GitHub](https://github.com/adfda)
+  [GitHub](https://github.com/ciyer87)
 
       

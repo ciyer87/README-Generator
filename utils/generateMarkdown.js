@@ -55,7 +55,7 @@ function renderTableOfContents(contents){
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
-  * [Questions](#qestions)
+  * [Questions](#questions)
   `
   }
   return '';
