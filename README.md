@@ -31,11 +31,11 @@ Clone the repo and run the command npm install to install dependencies
   
 * readme generator output
 
-  ![output](assets/images/readme-generator-questions.png)
+  ![output](assets/images/readme-generator-output.png)
 
 * readme generator preview
 
-  ![preview](assets/images/readme-generator-questions.png)
+  ![preview](assets/images/readme-generator-preview.png)
     
 ## License
 
