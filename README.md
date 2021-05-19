@@ -39,7 +39,10 @@ Clone the repo and run the command npm install to install dependencies
   
 * walkthrough video
  
- ![walkthrough video](assets/images/READMEGeneratorVideo.gif)
+  ![walkthrough video](assets/images/READMEGeneratorVideo.gif)
+  
+* google drive link of the recording - https://drive.google.com/file/d/1Gj-vpbogCaZzHmD1_REV8XxEVYL7g6b9/view![image](https://user-images.githubusercontent.com/65265573/118857877-5faced00-b88d-11eb-9166-f85cb8e1c5a1.png)
+
     
 ## License
 
