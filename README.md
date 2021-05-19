@@ -39,7 +39,7 @@ Clone the repo and run the command npm install to install dependencies
   
 * walkthrough video
  
- ![walkthrough video](assets/images/READMEGeneratorVidoe.gif)
+ ![walkthrough video](assets/images/READMEGeneratorVideo.gif)
     
 ## License
 
